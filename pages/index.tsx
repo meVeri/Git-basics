@@ -56,7 +56,7 @@ export default function Home() {
 						target="_blank"
 						rel="noopener noreferrer">
 						<h2>
-							Docs1! <span>-&gt;</span>
+							Documents <span>-&gt;</span>
 						</h2>
 						<p>
 							Find in-depth information about Next.js features and&nbsp;API.
