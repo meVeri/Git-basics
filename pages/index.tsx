@@ -2,8 +2,20 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import { Console } from "console";
 
 const inter = Inter({ subsets: ["latin"] });
+
+let name = prompt("Whats your name");
+console.log("Hello" + name);
+
+let greeting = "Hello ${name}";
+
+{
+	let sentence = "Welcome to my World";
+
+	const a: number = 5; // wtf
+}
 
 export default function Home() {
 	return (
