@@ -6,16 +6,13 @@ import { Console } from "console";
 
 const inter = Inter({ subsets: ["latin"] });
 
-let name = prompt("Whats your name");
+const name = "Whats your name";
 console.log("Hello" + name);
 
-let greeting = "Hello ${name}";
+const greeting = "Hello ${name}";
+let sentence = "Welcome to my World";
 
-{
-	let sentence = "Welcome to my World";
-
-	const a: number = 5; // wtf
-}
+const myNumber: number = 5;
 
 export default function Home() {
 	return (
